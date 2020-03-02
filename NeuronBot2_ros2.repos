@@ -5,16 +5,16 @@ repositories:
     version: ros2-devel
   joint_state_publisher:
     type: git
-    url: https://github.com/airuchen/joint_state_publisher.git
-    version: ros2
+    url: https://github.com/ros/joint_state_publisher.git
+    version: ros2-devel
   neuronbot2:
     type: git
     url: https://github.com/airuchen/neuronbot2.git
     version: dashing-devel
   robot_localization:
     type: git
-    url: https://github.com/airuchen/robot_localization.git
-    version: openrover_demo
+    url: https://github.com/cra-ros-pkg/robot_localization
+    version: eloquent-devel
   rplidar_ros:
     type: git
     url: https://github.com/airuchen/rplidar_ros.git
@@ -22,8 +22,4 @@ repositories:
   serial-ros2:
     type: git
     url: https://github.com/RoverRobotics-forks/serial-ros2.git
-    version: master
-  slam_gmapping:
-    type: git
-    url: https://github.com/skylerpan/slam_gmapping.git
     version: master
